@@ -1,0 +1,49 @@
+.section{
+  transform: translateY(50px);
+  position: relative;
+  z-index: 1;
+  
+  overflow: hidden;
+}
+.container{
+
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  justify-content: space-between;
+  width: 1100px;
+  margin: 6rem auto;
+}
+.container h1{
+  font-size:4rem;
+  
+}
+.container p{
+  font-size: 18px;
+  color: hsl(0, 0%, 41%);
+  line-height: 1.4;
+  margin: 2.8rem 0;
+}
+.container a{
+  
+  text-decoration: none;
+  padding: 15px 20px;
+  background: hsl(0, 0%, 8%);
+  color: white;
+  border-radius: 13px;  
+  
+}
+.sponsors{
+  margin-top: 7rem ;
+}
+.sponsors img{
+  margin-right: 1.2rem;
+}
+.section-right{
+
+  width: 550px;
+  height: 550px;
+  background: url('../../images/image-hero-desktop.png') no-repeat center center;
+  background-size: 400px;
+  transform: translateY(-80px);
+}
+
